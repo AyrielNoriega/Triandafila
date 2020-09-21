@@ -1,0 +1,246 @@
+.card-img-100 {
+	width: 100px;
+	height: 100px
+}
+
+.card-img-64 {
+	width: 64px;
+	height: 64px
+}
+
+.card {
+	font-weight: 400;
+	border: 0;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.card[class*="border"] {
+	border: 1px solid #9e9e9e;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+
+.card .card-body h1,
+.card .card-body h2,
+.card .card-body h3,
+.card .card-body h4,
+.card .card-body h5,
+.card .card-body h6 {
+    font-weight: 400
+}
+
+
+.card .card-body .card-title a {
+	-webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out
+}
+
+.card .card-body .card-title a:hover {
+	-webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out
+}
+
+.card .card-body .card-text {
+	font-size: .9rem;
+	font-weight: 400;
+	color: #747373
+}
+
+.card .md-form label {
+	font-weight: 300
+}
+
+
+.fast.spinner-border {
+	-webkit-animation: spinner-border 0.4s linear infinite;
+	animation: spinner-border 0.4s linear infinite
+}
+
+.fast.spinner-grow {
+	-webkit-animation: spinner-grow 0.4s linear infinite;
+	animation: spinner-grow 0.4s linear infinite
+}
+
+.animated.fast {
+	-webkit-animation-duration: 800ms;
+	animation-duration: 800ms
+}
+
+.animated.faster {
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms
+}
+
+.btn .fas.right,
+.btn .fab.right,
+.btn .far.right {
+    margin-left: .3rem
+}
+.btn .fas.left,
+.btn .fab.left,
+.btn .far.left {
+    margin-right: .3rem
+}
+
+.navbar .nav-item .nav-link .fas,
+.navbar .nav-item .nav-link .fab,
+.navbar .nav-item .nav-link .far {
+    padding-right: 3px;
+    padding-left: 3px
+}
+
+
+.fast.spinner-border {
+	-webkit-animation: spinner-border 0.4s linear infinite;
+	animation: spinner-border 0.4s linear infinite
+}
+
+.fast.spinner-grow {
+	-webkit-animation: spinner-grow 0.4s linear infinite;
+	animation: spinner-grow 0.4s linear infinite
+}
+
+.animated.fast {
+	-webkit-animation-duration: 800ms;
+	animation-duration: 800ms
+}
+
+.animated.faster {
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms
+}
+
+.amber-text {
+	color: #ffc107 !important
+}
+
+
+
+.booking-card{
+	width: 332px;
+}
+
+.btn-flat {
+	width: 100%;
+	height: 48px;
+	border: 1px solid rgb(121, 117, 117);
+}
+
+.bg-color {
+	background-color: #ffffff;
+}
+
+.icon-button {
+	height: 25px;
+	padding-right: 5px;
+}
+
+/* .booking-card .btn-flat {
+	padding-bottom: 0%;
+	transition: padding-bottom 1s;
+}
+
+
+.booking-card:hover .btn-flat{
+	padding-bottom: 3px;
+} */
+
+.btn-color {
+	border-color: #ea4c08
+}
+
+.btn-flat {
+	transform: translate(0px, 0px);
+	/* width: calc(100% - 64px); */
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	transition: all 0.2s ease-out 0s !important;
+}
+
+.btn-flat:hover {
+	background: white;
+	transform: translate(0px, -2px);
+	box-shadow: rgba(92, 84, 122, 0.2) 0px 2px 6px;
+}
+
+.overlay {
+	height: 221px;
+}
+
+
+ .hiden {
+
+	height: inherit;
+	position: absolute;
+	width: 100%;
+		/* content: ''; */
+    /* position: absolute; */
+    /* left: 0;
+    top: 0; */
+    /* width: 100%;
+    height: inherit;
+    background-color: #554346;
+    opacity: 0; */
+    -webkit-transition: 0.2s  ease-in-out;
+    transition: 0.2s  ease-in-out;
+    /* background: linear-gradient(to left, #554346, #45505b) !important; */
+}
+
+.hiden:hover {
+	background-color: #ea4c0842;
+ }
+
+/* .hiden::before {
+	content: '\e96b';
+} */
+
+
+/* .item-image-style {
+	width: 300px !important;
+}
+
+.carousel-item {
+	display: flex;
+    justify-content: space-evenly;
+} */
+
+
+.cid-s25S6gYVKg {
+	padding-top: 0px;
+}
+
+.media-wrap {
+	text-align: center;
+}
+
+.separador {
+	border: 2px solid #ea4c08;
+	width: 402px;
+	margin-top: 50px;
+}
+
+.cid-s25H3NZjou {
+	padding-bottom: 30px;
+}
+@media (max-width: 575.98px) { 
+	.items-ini {
+		display: none;
+	}
+ }
+/* 
+
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+
+*/
