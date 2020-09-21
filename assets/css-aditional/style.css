@@ -244,3 +244,7 @@
 
 
 */
+
+.card-img-top {
+	height: inherit;
+}
